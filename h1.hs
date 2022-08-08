@@ -1,5 +1,5 @@
 module H1 where
--- | Find the digits of a positive number 
+-- | Ex1: Find the digits of a positive number 
 --
 -- >>> toDigits 1234
 -- [1,2,3,4]
@@ -49,7 +49,7 @@ validate n = undefined
 
 -- | Ex5: The Towers of Hanoi
 -- >>> hanoi 2 "a" "b" "c"
--- [("a","c"), ("a","b"), ("c","b")]
+-- [("a","c"),("a","b"),("c","b")]
 type Peg = String
 type Move = (Peg, Peg)
 hanoi :: Integer -> Peg -> Peg -> Peg -> [Move]
