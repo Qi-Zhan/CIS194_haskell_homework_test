@@ -38,19 +38,20 @@ localMaxima = undefined
 -- | Ex3: Histogram
 --   Input a list of Integers between 0 and 9
 --   Output a vertical histogram count them
--- >>> histogram [1,1,1,5] 
--- *
--- *
--- * *
+-- >>> putStr (histogram [1,1,1,5]) 
+--  *
+--  *
+--  *   *
 -- ==========
 -- 0123456789
 --
--- >>> histogram [1,4,5,4,6,6,3,4,2,4,9] 
--- *
--- *
--- * *
--- ****** *
+-- >>> putStr (histogram [1,4,5,4,6,6,3,4,2,4,9]) 
+--     *
+--     *
+--     * *
+--  ******  *
 -- ==========
--- 
+-- 0123456789 
+--
 histogram :: [Integer] -> String 
 histogram = undefined
