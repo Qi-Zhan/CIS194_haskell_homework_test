@@ -1,11 +1,10 @@
-This project provides tests for CIS194 homework based on `doctest`, make it easy to test your work. Tests are basically examples in assignments.
+This project takes examples in CIS194 homework to haskell tests based `doctest`, to make it easy to test your homework.
 
-Lectures and Assignments: https://www.seas.upenn.edu/~cis1940/spring13/lectures.html
-
-Highly recommend Haskell language server when you learn Haskell! It helps me a lot.
-
+Lectures: https://www.seas.upenn.edu/~cis1940/spring13/lectures.html
 ## Usage
+Install haskell toolchain from [Downloads (haskell.org)](https://www.haskell.org/downloads/).
+
 ```
 cabal install doctest
-doctest <file.hs>
+doctest <file.hs> 
 ```
